@@ -4,8 +4,7 @@
   "description": "My web portfolio for job and work",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "start-dev": "nodemon app.js"
+    "start": "node app.js"
   },
   "author": "webdev",
   "license": "ISC",

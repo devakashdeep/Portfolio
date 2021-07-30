@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-PORT = 3000
+PORT = process.env.PORT || 8080
 
 app.set('view engine', 'ejs')
 app.use(express.urlencoded({ extended: true }))
