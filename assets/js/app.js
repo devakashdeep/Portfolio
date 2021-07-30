@@ -16,6 +16,12 @@ closeMenu.addEventListener("click", function () {
     menu.style.display = 'none';
 });
 
+const menuLink = document.querySelectorAll('.navLink');
+menuLink.forEach(item => {
+    item.addEventListener('click', () => {
+        menu.style.display = 'none';
+    })
+})
 
 const allButton = document.querySelector('#portfolio-all');
 const webButton = document.querySelector('#portfolio-web');
