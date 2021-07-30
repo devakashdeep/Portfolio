@@ -212,9 +212,9 @@ a:hover {
   display: none;
 
   position: absolute;
-  top: 70%;
-  left: 110%;
-  transform: translate(-70%, -100%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: var(--secondary);
   text-align: center;
   padding: 2rem 2rem;

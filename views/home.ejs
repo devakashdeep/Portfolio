@@ -55,7 +55,7 @@
           I’ve spent many years trying to perfect what I do and while I’ll never
           be perfect, I do my best to come close.
         </p> -->
-          <a href="" class="btn btn-primary mb-3"> GET IN TOUCH </a>
+          <a href="#contact" class="btn btn-primary mb-3"> GET IN TOUCH </a>
         </div>
       </div>
       <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
@@ -226,10 +226,15 @@
         justify-content: center;
       "
     >
-      <button class="btn btn-primary" style="width: 200px; margin: 0 15px">
+      <button
+        class="btn btn-primary"
+        id="portfolio-all"
+        style="width: 200px; margin: 0 15px"
+      >
         All
       </button>
       <button
+        id="portfolio-web"
         class="btn"
         style="width: 200px; margin: 0 15px"
         aria-multiline="false"
@@ -237,6 +242,7 @@
         Website
       </button>
       <button
+        id="portfolio-mobile"
         class="btn"
         style="width: 200px; margin: 0 15px"
         aria-multiline="false"
@@ -246,12 +252,39 @@
     </div>
     <div class="row mt-5" id="portfolio-item">
       <div
-        class="col-sm-12 col-xs-12 col-md-6 col-lg-4 portfolio-card"
-        style="background-image: url('/assets/images/gargee.png')"
+        class="col-sm-12 col-xs-12 col-md-6 col-lg-4 mb-4 portfolioItems"
         data-id="Website"
       >
-        <div class="portfolio-overlay">
+        <div
+          class="portfolio-card"
+          style="background-image: url('/assets/images/gargee.png')"
+        >
+          <div class="portfolio-overlay"></div>
           <div class="portfolio-text">Gargee Designers</div>
+        </div>
+      </div>
+      <div
+        class="col-sm-12 col-xs-12 col-md-6 col-lg-4 mb-4 portfolioItems"
+        data-id="Mobile"
+      >
+        <div
+          class="portfolio-card"
+          style="background-image: url('/assets/images/oyexpertsCustomer.PNG')"
+        >
+          <div class="portfolio-overlay"></div>
+          <div class="portfolio-text">Oyexperts Customer App</div>
+        </div>
+      </div>
+      <div
+        class="col-sm-12 col-xs-12 col-md-6 col-lg-4 mb-4 portfolioItems"
+        data-id="Mobile"
+      >
+        <div
+          class="portfolio-card"
+          style="background-image: url('/assets/images/partner.PNG')"
+        >
+          <div class="portfolio-overlay"></div>
+          <div class="portfolio-text">Oyexperts Vendor App</div>
         </div>
       </div>
     </div>
