@@ -92,6 +92,8 @@ a:hover {
   color: #f1f1f1;
   font-size: 3rem;
 }
+
+.active,
 .navbar-menu a:hover {
   color: #03c96c;
   text-decoration: 4px underline solid #03c96c;

@@ -20,7 +20,14 @@ const menuLink = document.querySelectorAll('.navLink');
 menuLink.forEach(item => {
     item.addEventListener('click', () => {
         menu.style.display = 'none';
+        item.classList.toggle('active');
+        menuLink.forEach(i => {
+            if (item != i) {
+                i.classList.remove('active');
+            }
+        })
     })
+
 })
 
 const allButton = document.querySelector('#portfolio-all');
